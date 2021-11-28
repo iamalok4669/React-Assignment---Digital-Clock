@@ -48,6 +48,7 @@ class App extends Component {
     }
 
     padNumberToTwoDigits(num) {
+        
         return `${num < 10 ? "0" : ""}${num}`;
     }
 }
